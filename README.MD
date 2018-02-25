@@ -50,7 +50,7 @@ You need to add css in your style:
 
 
 
-In your compoenet :
+In your component :
 
 
 ```HTML
