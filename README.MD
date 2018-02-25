@@ -50,6 +50,19 @@ You need to add css in your style:
 
 
 
+In your compoenet :
+
+
+```HTML
+    <medium-editor
+    [(editorModel)]="textVar"
+    [editorOptions]="{'toolbar': {'buttons': ['bold', 'italic', 'underline', 'h1', 'h2', 'h3']}}"
+    [editorPlaceholder]="placeholderVar"></medium-editor>
+```
+
+
+
+
 ## License
 
 MIT © [youssef-mag](mailto:youssefmaghzaz@gmail.com)
