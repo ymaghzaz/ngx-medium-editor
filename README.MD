@@ -1,5 +1,7 @@
 # ngx-medium-editor
 
+by [@ysfMag](https://twitter.com/ysfMag)
+
 ## Installation
 
 To install this library, run:
@@ -20,17 +22,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-// Import MediumEditorDirective
-import { MediumEditorDirective } from 'ngx-medium-editor';
+// Import ngxMediumModule
+import { ngxMediumModule } from 'ngx-medium-editor';
 
 @NgModule({
   declarations: [
     AppComponent,
-   // Specify this directive as an import
-    MediumEditorDirective
   ],
   imports: [
     BrowserModule,
+    // Specify this Module as an import
+    ngxMediumModule
   ],
   providers: [],
   bootstrap: [AppComponent]

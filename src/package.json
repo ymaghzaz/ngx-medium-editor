@@ -1,6 +1,6 @@
 {
   "name": "ngx-medium-editor",
-  "version": "0.3.0",
+  "version": "0.4.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/ysfmag/ngx-medium-editor"
@@ -10,7 +10,9 @@
     "email": "youssefmaghzaz@gmail.com"
   },
   "keywords": [
-    "angular"
+    "angular",
+    "medium",
+    "medium-editor"
   ],
   "license": "MIT",
   "bugs": {
@@ -21,7 +23,7 @@
   "jsnext:main": "ngx-medium-editor.js",
   "typings": "ngx-medium-editor.d.ts",
   "peerDependencies": {
-    "@angular/core": "^4.0.0",
+    "@angular/core": "^5.2.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   }
