@@ -11,7 +11,6 @@ export * from './meduim.directive';
     MediumEditorDirective
   ],
   exports: [
-
   ]
 })
 export class ngxMediumModule {
